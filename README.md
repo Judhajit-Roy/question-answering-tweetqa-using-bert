@@ -1,4 +1,25 @@
 # Problem Description
 
 ## Exploring Question Answering (QA) on Tweets using BERT and its variants
-Question answering is a critical NLP problem, which is concerned with building systems that automatically answer questions posed by humans in a natural language. It has applications in many fields where a language model is trained on a large collection of articles/paragraphs and the model is able to answer questions pertaining to the  paragraph accurately. Social media is now becoming an important real-time information source, especially during natural disasters and emergencies. It is now very common for traditional news media to frequently probe users and resort to social media platforms to obtain real-time developments of events. Previous datasets have concentrated on question answering (QA) for formal text like news and Wikipedia. In this project we will use TweetQA (Xiong et al.,2019), the first large-scale dataset for QA over social media data to compare different models of BERT.
+Social Media platforms have become an integral
+part of people’s life over the last few years. They
+act as a provider of varied information, a subpart
+being the source of news and various real-time
+events that are happening around the globe. In this
+paper, we aim to explore Question Answering in
+a more informal space like twitter. Almost all of
+the previous research focused on the Question
+Answering task is done on datasets containing
+formally or academically written literature. The
+issue of unavailability of social media data for
+training models for question answering is
+addressed by using the TweetQA dataset. We
+study techniques like Data Augmentation to
+improve standard BERT models and observe how
+hyperparameter tuning effects the performance of
+the different models. The performance of models
+finetuned on SQuAD was compared with the
+vanilla models. We use the Exact Match and F1
+score metrics and our results point to the need of
+improved QA systems targeting social media text.
+
