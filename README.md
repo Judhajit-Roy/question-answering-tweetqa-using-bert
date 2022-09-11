@@ -23,3 +23,8 @@ vanilla models. We use the Exact Match and F1
 score metrics and our results point to the need of
 improved QA systems targeting social media text.
 
+##Results
+
+![results](https://user-images.githubusercontent.com/56783167/189553214-798635f0-2bf9-4ead-b8fe-58cbd3ecbe47.png)
+
+
